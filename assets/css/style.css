@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.custom-font-family {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.custom-btn-font-size {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+
+
+
+#hero-section {
+    background-image: linear-gradient(180deg,
+                                rgba(0,0,0,0.5) 0%,
+                                rgba(0,0,0,0.8) 100%),
+                                url(../images/SW-BG-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#synopsys {
+    background-image: linear-gradient(180deg,
+                                rgba(0,0,0,0.5) 0%,
+                                rgba(0,0,0,0.8) 100%),
+                                url(../images/SW-BG-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#casts {
+    background-image: linear-gradient(180deg,
+                                rgba(0,0,0,0.5) 0%,
+                                rgba(0,0,0,0.8) 100%),
+                                url(../images/SW-BG-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

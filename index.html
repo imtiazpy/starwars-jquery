@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star-wars</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand mx-auto text-white custom-font-family text-uppercase" href="#">Star Wars</a>
+                <button class="btn btn-warning rounded-pill text-uppercase custom-btn-font-size">Get tickets</button>
+              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <!-- <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+        </nav>
+
+          <!-- hero section -->
+        <section id="hero-section" class="d-flex flex-column align-items-center py-5">
+            <img class="w-25" src="./assets/images/SW-Hero.png" alt="">
+
+            <div>
+                <h6 class="text-uppercase text-white font-monospace">Videos</h6>
+            </div>
+            <!-- videos carousel-->
+            <div id="carouselExampleControls" class="carousel slide mb-2" data-intercharacters="false" data-pause="hover" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div style="width: auto; height: 300px;" class="">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8Qn_spdM5Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div style="width: auto; height: 300px;" class="">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eU9JRYzUBBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div style="width: auto; height: 300px;" class="">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQKs6U8eWoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <small class="text-uppercase text-white">Star wars: The Force Awekens trailer (Official)</small>
+        </section>
+
+        <!-- Number-2 Synopsys section -->
+        <section id="synopsys" class="py-5">
+            <div class="container">
+                <div class="d-flex justify-content-center mb-5">
+                    <h6 class="text-uppercase text-white font-monospace">Synopsys</h6>
+                </div>
+    
+                <div class="row d-flex align-items-center text-white">
+                    <div class="col-lg-4 col-12">
+                        <table>
+                            <tr>
+                                <td>Release Date: 17 DEC 2021</td>
+                            </tr>
+                            <tr>
+                                <td>Release Date: 17 DEC 2021</td>
+                            </tr>
+                            <tr>
+                                <td>Release Date: 17 DEC 2021</td>
+                            </tr>
+                            <tr>
+                                <td>Release Date: 17 DEC 2021</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <img class="img-fluid w-50" src="./assets/images/SW-ship.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum consequatur ullam reiciendis veritatis et tenetur pariatur ipsam laborum, nobis sed iusto unde cupiditate eum non quis! Cupiditate odit enim optio harum obcaecati ullam eos fugiat ex nobis, aut dolores officiis distinctio atque ducimus laudantium fugit maxime tenetur doloremque iure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </header>
+    <main>
+        <section id="casts" class="py-5">
+            <div class="container d-flex flex-column align-items-center">
+                <h5 class="text-white">Casts</h5>
+                <div id="cast" class="row row-cols-3 py-5">
+                    <div class="d-flex flex-column align-items-center text-white">
+                        <div class="col border border-2 rounded-circle p-2">
+                            <img style="width: 100px; height: 100px;" class="img-fluid border border-2 p-2 rounded-circle" id="img1" src="" alt="">    
+                        </div>
+                        <small id="name1">Name</small>
+                    </div>
+                    
+                    <div class="d-flex flex-column align-items-center text-white">
+                        <div class="col border border-2 rounded-circle p-2">
+                            <img style="width: 100px; height: 100px;" class="img-fluid border border-2 p-2 rounded-circle" id="img2" src="" alt="">    
+                        </div>
+                        <small id="name2">Name</small>
+                    </div>
+                    
+                    <div class="d-flex flex-column align-items-center text-white">
+                        <div class="col border border-2 rounded-circle p-2">
+                            <img style="width: 100px; height: 100px;" class="img-fluid border border-2 p-2 rounded-circle" id="img3" src="" alt="">    
+                        </div>
+                        <small id="name3">Name</small>
+                    </div>
+                    
+                </div>
+                <div>
+                    <button id="prev-btn" class="btn btn-primary">Previous</button>
+                    <button id="next-btn" class="btn btn-primary">Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            const casts = [
+                "Rey",
+                "Kylo Ren",
+                "Finn",
+                "Leia Organa",
+                "Poe Dameron",
+                "Han Solo",
+                "Luke Skywalker",
+                "Captain Phasma",
+                "Maz Kanata",
+                "General Hux",
+                "Supreme Leader Snoke",
+                "C-3PO",
+                "Lor San Tekka",
+                "Chewbacca",
+                "Unkar Plutt",
+                "R2-D2",
+                "Obi-Wan Kenobi",
+                "Lieutenant Connix",
+                "Thanisson",
+                "Wollivan",
+                "Stormtrooper",
+                "Snap Wexley"    
+            ]
+
+            const $img1 = $("#img1")
+            const $img2 = $("#img2")
+            const $img3 = $("#img3")
+            const $name1 = $("#name1")
+            const $name2 = $("#name2")
+            const $name3 = $("#name3")
+            const $prevBtn = $("#prev-btn")
+            const $nextBtn = $("#next-btn")
+
+            
+            
+            $.get("https://rawcdn.githack.com/akabab/starwars-api/0.2.1/api/all.json", function (characters) {
+                const charactersList = []
+                
+                for (let i=0; i<characters.length; i++) {
+                    if (casts.includes(characters[i].name)) {
+                        charactersList.push(characters[i])
+                    }
+                } 
+                
+
+
+                // Index to start counting from.
+                let characterIndex = 0;
+
+                
+                // Sets three images based in the given index.
+                // Indexes will be counted upwards starting with the index.
+                // @param {number} index
+                 
+                const setThreeImageFromIndex = index => {
+                    $img1.attr("src", charactersList[index].image)
+                    $name1.text(charactersList[index].name)
+                    $img2.attr("src", charactersList[index + 1].image)
+                    $name2.text(charactersList[index + 1].name)
+                    $img3.attr("src", charactersList[index + 2].image)
+                    $name3.text(charactersList[index + 2].name)
+
+                };
+
+                // Set images for the first time.
+                setThreeImageFromIndex(characterIndex);
+
+                // Go to next 3.
+                $nextBtn.on("click", function () {
+                   // Don't go over the length of the characterList.
+                    if (characterIndex + 3 < charactersList.length) {
+                        try {
+                            characterIndex += 3;
+                            setThreeImageFromIndex(characterIndex);
+                        } catch (error) {
+                            console.log("Item not found", error)
+                        }    
+                    }
+                });
+
+                // Go to previous 3.
+                $prevBtn.on("click", function () {
+                   // Don't go below 0.
+                   if (characterIndex - 3 >= 0) {
+                       characterIndex -= 3;
+                       setThreeImageFromIndex(characterIndex);
+                   }
+                });
+        
+            })
+        })
+    </script>
+</body>
+</html>
